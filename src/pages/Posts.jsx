@@ -70,8 +70,7 @@ function Posts() {
                         marginTop: 50 + "px",
                     }}
                 >
-                    {" "}
-                    <Loader />{" "}
+                    <Loader />
                 </div>
             ) : (
                 <Postlist remove={removePost} posts={sortedAndSearchedPosts} />
