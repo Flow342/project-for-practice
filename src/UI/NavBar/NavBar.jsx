@@ -18,8 +18,32 @@ const NavBar = () => {
                 Exit
             </MyButton>
             <div className="navbar__links">
-                <Link to="/about">About</Link>
-                <Link to="/posts">Posts </Link>
+                <Link
+                    style={{
+                        margin: 5,
+                        textDecoration: "none",
+                        padding: 10,
+                        border: "1px solid teal",
+                        color: "black",
+                        fontSize: 18,
+                    }}
+                    to="/about"
+                >
+                    About
+                </Link>
+                <Link
+                    style={{
+                        margin: 5,
+                        textDecoration: "none",
+                        padding: 10,
+                        border: "1px solid teal",
+                        color: "black",
+                        fontSize: 18,
+                    }}
+                    to="/posts"
+                >
+                    Posts{" "}
+                </Link>
             </div>
         </div>
     );
